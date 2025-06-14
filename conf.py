@@ -18,7 +18,7 @@ sys.path.insert(0, os.path.abspath('.'))
 import time
 
 project = 'MMF1Z7'
-author = 'Maciej Szeptuch'
+author = 'Marcelina Kruczała, Maciej Szeptuch'
 titlepage = {
         "faculty": "Fizyki i Informatyki Stosowanej",
         "year": "auto",
