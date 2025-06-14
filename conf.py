@@ -17,15 +17,15 @@ sys.path.insert(0, os.path.abspath('.'))
 # -- Project information -----------------------------------------------------
 import time
 
-project = 'FT2zXcXvX'
-author = '[AUTORZY]'
+project = 'MMF1Z7'
+author = 'Maciej Szeptuch'
 titlepage = {
         "faculty": "Fizyki i Informatyki Stosowanej",
         "year": "auto",
-        "groupID": "[NR GRUPY ĆWICZENIOWEJ]",
-        "team": "[NR ZESPOŁU]",
-        "title": "[TEMAT ĆWICZENIA]",
-        "number": "[NUMER ĆWICZENIA]",
+        "groupID": "N/A",
+        "team": "N/A",
+        "title": "Obliczenie całki funkcji f(x)",
+        "number": "7",
 
         "taskDate": "auto", # [DATA LABORATORIUM]
         "creationDate": "auto", # [DATA POWSTANIA SPRAWOZDANIA]
