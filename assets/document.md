@@ -50,7 +50,8 @@ Natomiast dla $z_0 = 1$:
 
 $$
 Res(f, 1) &= \frac{1}{(3-1)!} \lim_{z \to 1} \frac{d^{3-1}}{dz^{3-1}} \left( (z-1)^3 f(z) \right) \\
-&= \frac{1}{2} \lim_{z \to 1} \frac{d^{2}}{dz^{2}} \left( \cancel{(z-1)^3} \frac{-e^z}{z\cancel{(1-z)^3}} \right) \\
+&= \frac{1}{2} \lim_{z \to 1} \frac{d^{2}}{dz^{2}} \left( (z-1)^3 \frac{e^z}{z(1-z)^3} \right) \\
+&= \frac{1}{2} \lim_{z \to 1} \frac{d^{2}}{dz^{2}} \left( \cancel{(z-1)^3} \frac{-e^z}{z\cancel{(z-1)^3}} \right) \\
 &= \frac{1}{2} \lim_{z \to 1} \frac{d^{2}}{dz^{2}} \left( \frac{-e^z}{z} \right) \\
 &= \frac{1}{2} \lim_{z \to 1} \frac{d}{dz} \left( \frac{-e^z}{z} + \frac{e^z}{z^2} \right) \\
 &= \frac{1}{2} \lim_{z \to 1} \frac{d}{dz} e^z \left( \frac{1}{z^2} - \frac{1}{z} \right) \\
